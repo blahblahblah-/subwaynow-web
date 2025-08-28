@@ -284,9 +284,9 @@ class StationList extends React.Component {
               <link rel="canonical" href="https://www.subwaynow.app/stations" />
               <meta property="og:title" content="Subway Now (formerly The Weekendest) - Stations" />
               <meta name="twitter:title" content="Subway Now (formerly The Weekendest) - Stations" />
-              <meta name="Description" content="Real-time map for the New York City subway. Check for planned service changes, up-to-date train routing, and real-time arrival times." />
-              <meta property="og:description" content="Real-time map for the New York City subway. Check for planned service changes, up-to-date train routing, and real-time arrival times." />
-              <meta name="twitter:description" content="Real-time map for the New York City subway. Check for planned service changes, up-to-date train routing, and real-time arrival times." />
+              <meta name="Description" content="First and only realtime live map for the MTA New York City Subway. See train locations, current service patterns, planned service changes, and more accurate arrival times." />
+              <meta property="og:description" content="First and only realtime live map for the MTA New York City Subway. See train locations, current service patterns, planned service changes, and more accurate arrival times." />
+              <meta name="twitter:description" content="First and only realtime live map for the MTA New York City Subway. See train locations, current service patterns, planned service changes, and more accurate arrival times." />
             </Helmet>
           </div>
         }

@@ -2352,9 +2352,9 @@ class Mapbox extends React.Component {
           <link rel="canonical" href="https://www.subwaynow.app" />
           <meta property="og:title" content="Subway Now (formerly The Weekendest) - Real-Time New York City Subway Map" />
           <meta name="twitter:title" content="Subway Now (formerly The Weekendest) - Real-Time New York City Subway Map" />
-          <meta name="Description" content="Real-time map for the New York City subway. Check for planned service changes, up-to-date train routing, and real-time arrival times." />
-          <meta property="og:description" content="Real-time map for the New York City subway. Check for planned service changes, up-to-date train routing, and real-time arrival times." />
-          <meta name="twitter:description" content="Real-time map for the New York City subway. Check for planned service changes, up-to-date train routing, and real-time arrival times." />
+          <meta name="Description" content="First and only realtime live map for the MTA New York City Subway. See train locations, current service patterns, planned service changes, and more accurate arrival times." />
+          <meta property="og:description" content="First and only realtime live map for the MTA New York City Subway. See train locations, current service patterns, planned service changes, and more accurate arrival times." />
+          <meta name="twitter:description" content="First and only realtime live map for the MTA New York City Subway. See train locations, current service patterns, planned service changes, and more accurate arrival times." />
         </Helmet>
         <Responsive {...Responsive.onlyMobile} as={Segment} className="mobile-top-bar" style={{padding: 0}}>
           <div className='mobile-details-header'>
