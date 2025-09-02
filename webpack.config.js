@@ -58,6 +58,18 @@ const config = {
             ],
           },
           {
+            test: /robots.txt$/,
+            use: [
+                {
+                    loader: 'file-loader',
+                    options: {
+                        limit: 1000,
+                        name : '[name]'
+                    }
+                }
+            ],
+          },
+          {
             test: /assetlinks.json$/,
             use: [
                 {
