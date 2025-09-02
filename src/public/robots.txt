@@ -1,0 +1,1 @@
+sitemap: https://www.subwaynow.app/sitemap.xml
