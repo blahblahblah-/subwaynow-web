@@ -75,6 +75,7 @@ class TripDetails extends React.Component {
           <meta name="twitter:description" content={`Track trip ${trip.id} on the ${name} Train on the New York City subway.`} />
           <link rel="canonical" href={`https://www.subwaynow.app/trains/${train.id}/${trip.id}`} />
           <meta name="Description" content={`Track trip ${trip.id} on the ${name} Train on the New York City subway.`} />
+          <meta name="robots" content="noindex" />
         </Helmet>
         <Responsive minWidth={Responsive.onlyTablet.minWidth} as='div' style={{padding: "14px 14px 0 14px"}}>
           <Button icon onClick={this.handleBack} title="Back">

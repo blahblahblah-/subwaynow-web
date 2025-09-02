@@ -521,10 +521,10 @@ class StationDetails extends React.Component {
           <meta name="twitter:title" content={title} />
           <meta property="og:url" content={`https://www.subwaynow.app/stations/${station.id}`} />
           <meta name="twitter:url" content={`https://www.subwaynow.app/stations/${station.id}`} />
-          <meta property="og:description" content={`Check service status, and real-time train arrival times for ${name} Station on the New York City subway.`} />
-          <meta name="twitter:description" content={`Check service status, and real-time train arrival times for ${name} Station on the New York City subway.`} />
+          <meta property="og:description" content={`Check service status, train locations, realtime train arrival times, and map for ${name} Station on MTA New York City Subway.`} />
+          <meta name="twitter:description" content={`Check service status, train locations, realtime train arrival times, and map for ${name} Station on MTA New York City Subway.`} />
           <link rel="canonical" href={`https://www.subwaynow.app/stations/${station.id}`} />
-          <meta name="Description" content={`Check service status, and real-time train arrival times for ${name} Station on the New York City subway.`} />
+          <meta name="Description" content={`Check service status, train locations, realtime train arrival times, and map for ${name} Station on MTA New York City Subway.`} />
         </Helmet>
         <Responsive minWidth={Responsive.onlyTablet.minWidth} as='div' style={{padding: "14px"}}>
           <Button icon onClick={this.handleBack} title="Back">
